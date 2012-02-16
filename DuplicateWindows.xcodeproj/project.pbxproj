@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B72C900414ECE21A00F9E7AE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72C900214ECE20C00F9E7AE /* Sparkle.framework */; };
+		E71D11C31180E95F0049C951 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71D11C21180E95F0049C951 /* QuartzCore.framework */; };
+		E723186411B39325007FD5CD /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E7A85EA3119376D6001246C8 /* Icon.icns */; };
+		E743DF731172898F00AA2213 /* License in Resources */ = {isa = PBXBuildFile; fileRef = E743DF721172898F00AA2213 /* License */; };
+		E778F33811CC459F0054F559 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E778F33711CC459F0054F559 /* Credits.rtf */; };
+		E7A85E9511937661001246C8 /* DuplicateWindowsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A85E8A11937661001246C8 /* DuplicateWindowsAppDelegate.m */; };
+		E7A85E9611937662001246C8 /* DWAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A85E8C11937661001246C8 /* DWAppController.m */; };
+		E7A85E9711937662001246C8 /* DWCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A85E8E11937661001246C8 /* DWCloseButton.m */; };
+		E7A85E9811937662001246C8 /* DWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A85E9011937661001246C8 /* DWImageView.m */; };
+		E7A85E9911937662001246C8 /* FCDuplicateWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A85E9211937661001246C8 /* FCDuplicateWindow.m */; };
+		E7A85E9A11937662001246C8 /* FCDuplicateWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A85E9411937661001246C8 /* FCDuplicateWindows.m */; };
+		E7A85EA6119376D6001246C8 /* bar2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E7A85E9F119376D6001246C8 /* bar2.pdf */; };
+		E7A85EA7119376D6001246C8 /* close_bar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E7A85EA0119376D6001246C8 /* close_bar.pdf */; };
+		E7A85EA8119376D6001246C8 /* close_bar_h.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E7A85EA1119376D6001246C8 /* close_bar_h.pdf */; };
+		E7A85EA9119376D6001246C8 /* close_bar_p.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E7A85EA2119376D6001246C8 /* close_bar_p.pdf */; };
+		E7E87B09117BA2A900C47528 /* DuplicateWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E87B08117BA2A900C47528 /* DuplicateWindow.xib */; };
+		E7FEAF3C11B3922C00818B1A /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E7FEAF3611B3922C00818B1A /* dsa_pub.pem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7FFB383117992B0003C2F22 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* DuplicateWindows_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuplicateWindows_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* DuplicateWindows-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DuplicateWindows-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DuplicateWindows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuplicateWindows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72C900214ECE20C00F9E7AE /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		E71D11C21180E95F0049C951 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		E743DF721172898F00AA2213 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		E778F33711CC459F0054F559 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = "<group>"; };
+		E7928CDF11CADC8500F24FA2 /* transparency_icon_c.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = transparency_icon_c.pdf; path = Private/transparency_icon_c.pdf; sourceTree = SOURCE_ROOT; };
+		E7A85E8911937661001246C8 /* DuplicateWindowsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuplicateWindowsAppDelegate.h; sourceTree = "<group>"; };
+		E7A85E8A11937661001246C8 /* DuplicateWindowsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuplicateWindowsAppDelegate.m; sourceTree = "<group>"; };
+		E7A85E8B11937661001246C8 /* DWAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAppController.h; sourceTree = "<group>"; };
+		E7A85E8C11937661001246C8 /* DWAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAppController.m; sourceTree = "<group>"; };
+		E7A85E8D11937661001246C8 /* DWCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWCloseButton.h; sourceTree = "<group>"; };
+		E7A85E8E11937661001246C8 /* DWCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWCloseButton.m; sourceTree = "<group>"; };
+		E7A85E8F11937661001246C8 /* DWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWImageView.h; sourceTree = "<group>"; };
+		E7A85E9011937661001246C8 /* DWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWImageView.m; sourceTree = "<group>"; };
+		E7A85E9111937661001246C8 /* FCDuplicateWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCDuplicateWindow.h; sourceTree = "<group>"; };
+		E7A85E9211937661001246C8 /* FCDuplicateWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCDuplicateWindow.m; sourceTree = "<group>"; };
+		E7A85E9311937661001246C8 /* FCDuplicateWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCDuplicateWindows.h; sourceTree = "<group>"; };
+		E7A85E9411937661001246C8 /* FCDuplicateWindows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCDuplicateWindows.m; sourceTree = "<group>"; };
+		E7A85E9F119376D6001246C8 /* bar2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = bar2.pdf; sourceTree = "<group>"; };
+		E7A85EA0119376D6001246C8 /* close_bar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = close_bar.pdf; sourceTree = "<group>"; };
+		E7A85EA1119376D6001246C8 /* close_bar_h.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = close_bar_h.pdf; sourceTree = "<group>"; };
+		E7A85EA2119376D6001246C8 /* close_bar_p.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = close_bar_p.pdf; sourceTree = "<group>"; };
+		E7A85EA3119376D6001246C8 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../../Private/Icon.icns; sourceTree = "<group>"; };
+		E7E87B08117BA2A900C47528 /* DuplicateWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DuplicateWindow.xib; path = ../Private/DuplicateWindow.xib; sourceTree = "<group>"; };
+		E7FEAF3511B3922C00818B1A /* bar2_original.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = bar2_original.pdf; sourceTree = "<group>"; };
+		E7FEAF3611B3922C00818B1A /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		E7FEAF3711B3922C00818B1A /* DuplicateWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DuplicateWindow.xib; sourceTree = "<group>"; };
+		E7FEAF3811B3922C00818B1A /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		E7FEAF3911B3922C00818B1A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E7FEAF3A11B3922C00818B1A /* Icon.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icon.pxm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E71D11C31180E95F0049C951 /* QuartzCore.framework in Frameworks */,
+				B72C900414ECE21A00F9E7AE /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72C900214ECE20C00F9E7AE /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71D11C21180E95F0049C951 /* QuartzCore.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DuplicateWindows.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DuplicateWindows */ = {
+			isa = PBXGroup;
+			children = (
+				E7FEAF3411B3922C00818B1A /* Private */,
+				E7A85E9D119376D6001246C8 /* Resources */,
+				E7A85E8811937661001246C8 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				E743DF721172898F00AA2213 /* License */,
+			);
+			name = DuplicateWindows;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* DuplicateWindows_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* DuplicateWindows-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				E778F33711CC459F0054F559 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7A85E8811937661001246C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7A85E8911937661001246C8 /* DuplicateWindowsAppDelegate.h */,
+				E7A85E8A11937661001246C8 /* DuplicateWindowsAppDelegate.m */,
+				E7A85E8B11937661001246C8 /* DWAppController.h */,
+				E7A85E8C11937661001246C8 /* DWAppController.m */,
+				E7A85E8D11937661001246C8 /* DWCloseButton.h */,
+				E7A85E8E11937661001246C8 /* DWCloseButton.m */,
+				E7A85E8F11937661001246C8 /* DWImageView.h */,
+				E7A85E9011937661001246C8 /* DWImageView.m */,
+				E7A85E9111937661001246C8 /* FCDuplicateWindow.h */,
+				E7A85E9211937661001246C8 /* FCDuplicateWindow.m */,
+				E7A85E9311937661001246C8 /* FCDuplicateWindows.h */,
+				E7A85E9411937661001246C8 /* FCDuplicateWindows.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7A85E9D119376D6001246C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7E87B08117BA2A900C47528 /* DuplicateWindow.xib */,
+				E7A85E9E119376D6001246C8 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7A85E9E119376D6001246C8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E7928CDF11CADC8500F24FA2 /* transparency_icon_c.pdf */,
+				E7A85E9F119376D6001246C8 /* bar2.pdf */,
+				E7A85EA0119376D6001246C8 /* close_bar.pdf */,
+				E7A85EA1119376D6001246C8 /* close_bar_h.pdf */,
+				E7A85EA2119376D6001246C8 /* close_bar_p.pdf */,
+				E7A85EA3119376D6001246C8 /* Icon.icns */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E7FEAF3411B3922C00818B1A /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				E7FEAF3511B3922C00818B1A /* bar2_original.pdf */,
+				E7FEAF3611B3922C00818B1A /* dsa_pub.pem */,
+				E7FEAF3711B3922C00818B1A /* DuplicateWindow.xib */,
+				E7FEAF3811B3922C00818B1A /* Icon.icns */,
+				E7FEAF3911B3922C00818B1A /* Icon.png */,
+				E7FEAF3A11B3922C00818B1A /* Icon.pxm */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DuplicateWindows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DuplicateWindows" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				E7FFB383117992B0003C2F22 /* CopyFiles */,
+				E723188411B394AC007FD5CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuplicateWindows;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DuplicateWindows;
+			productReference = 8D1107320486CEB800E47090 /* DuplicateWindows.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DuplicateWindows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DuplicateWindows */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DuplicateWindows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E723186411B39325007FD5CD /* Icon.icns in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				E743DF731172898F00AA2213 /* License in Resources */,
+				E7E87B09117BA2A900C47528 /* DuplicateWindow.xib in Resources */,
+				E7A85EA6119376D6001246C8 /* bar2.pdf in Resources */,
+				E7A85EA7119376D6001246C8 /* close_bar.pdf in Resources */,
+				E7A85EA8119376D6001246C8 /* close_bar_h.pdf in Resources */,
+				E7A85EA9119376D6001246C8 /* close_bar_p.pdf in Resources */,
+				E7FEAF3C11B3922C00818B1A /* dsa_pub.pem in Resources */,
+				E778F33811CC459F0054F559 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E723188411B394AC007FD5CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${TARGET_BUILD_DIR}\"\nzip -rq ${PRODUCT_NAME} ${TARGET_NAME}.app\nruby ~/Sparkle/Extras/Signing\\ Tools/sign_update.rb ${PRODUCT_NAME}.zip ~/Sparkle/dsa_priv.pem\n\n# python upload.py -p duplicate-windows\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				E7A85E9511937661001246C8 /* DuplicateWindowsAppDelegate.m in Sources */,
+				E7A85E9611937662001246C8 /* DWAppController.m in Sources */,
+				E7A85E9711937662001246C8 /* DWCloseButton.m in Sources */,
+				E7A85E9811937662001246C8 /* DWImageView.m in Sources */,
+				E7A85E9911937662001246C8 /* FCDuplicateWindow.m in Sources */,
+				E7A85E9A11937662001246C8 /* FCDuplicateWindows.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DuplicateWindows_Prefix.pch;
+				GCC_VERSION = 4.2;
+				HEADER_SEARCH_PATHS = "\"/Users/rahul/Projects/DuplicateWindows\"";
+				INFOPLIST_FILE = "DuplicateWindows-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"/Users/rahul/Projects/DuplicateWindows\"";
+				PRODUCT_NAME = DuplicateWindows;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DuplicateWindows_Prefix.pch;
+				GCC_VERSION = 4.2;
+				HEADER_SEARCH_PATHS = "\"/Users/rahul/Projects/DuplicateWindows\"";
+				INFOPLIST_FILE = "DuplicateWindows-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"/Users/rahul/Projects/DuplicateWindows\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = DuplicateWindows;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64 ppc7400 ppc64 ppc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DuplicateWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DuplicateWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
