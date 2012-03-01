@@ -21,7 +21,6 @@
 //  along with DuplicateWindows.  If not, see <http://www.gnu.org/licenses/>.
 
 #import "DuplicateWindowsAppDelegate.h"
-#import <Sparkle/SUUpdater.h>
 
 @implementation DuplicateWindowsAppDelegate
 
@@ -32,9 +31,7 @@
 }
 
 -(void)applicationWillFinishLaunching:(NSNotification *)notification {
-  SUUpdater *sharedUpdater = [SUUpdater sharedUpdater];
-  [sharedUpdater setAutomaticallyChecksForUpdates:TRUE];
-  [sharedUpdater checkForUpdatesInBackground];
+	// blah
 }
 
 - (BOOL)applicationShouldOpenUntitledFile:(NSApplication *)sender {

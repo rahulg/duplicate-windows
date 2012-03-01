@@ -11,7 +11,6 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		B72C900414ECE21A00F9E7AE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72C900214ECE20C00F9E7AE /* Sparkle.framework */; };
 		E71D11C31180E95F0049C951 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71D11C21180E95F0049C951 /* QuartzCore.framework */; };
 		E723186411B39325007FD5CD /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E7A85EA3119376D6001246C8 /* Icon.icns */; };
 		E743DF731172898F00AA2213 /* License in Resources */ = {isa = PBXBuildFile; fileRef = E743DF721172898F00AA2213 /* License */; };
@@ -53,7 +52,6 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* DuplicateWindows-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DuplicateWindows-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* DuplicateWindows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuplicateWindows.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B72C900214ECE20C00F9E7AE /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		E71D11C21180E95F0049C951 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		E743DF721172898F00AA2213 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		E778F33711CC459F0054F559 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				E71D11C31180E95F0049C951 /* QuartzCore.framework in Frameworks */,
-				B72C900414ECE21A00F9E7AE /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +98,6 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B72C900214ECE20C00F9E7AE /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -235,7 +231,6 @@
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				E7FFB383117992B0003C2F22 /* CopyFiles */,
-				E723188411B394AC007FD5CD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -294,22 +289,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		E723188411B394AC007FD5CD /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"${TARGET_BUILD_DIR}\"\nzip -rq ${PRODUCT_NAME} ${TARGET_NAME}.app\nruby ~/Sparkle/Extras/Signing\\ Tools/sign_update.rb ${PRODUCT_NAME}.zip ~/Sparkle/dsa_priv.pem\n\n# python upload.py -p duplicate-windows\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {

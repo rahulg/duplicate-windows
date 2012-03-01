@@ -72,7 +72,7 @@
   // Closing event started by clicking close button,
   // and mouse-up happens before mouse leaves button area.
   if (isClosing) {
-    [[self window] performClose:self];
+	  [[self window] performClose:self];
   }
 }
 
